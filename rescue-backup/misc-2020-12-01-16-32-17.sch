@@ -1,5 +1,42 @@
-EESchema Schematic File Version 4
-EELAYER 30 0
+EESchema Schematic File Version 2
+LIBS:msisdr-rescue
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:msi
+LIBS:msi001
+LIBS:lp5900sdx-2
+LIBS:msisdr-cache
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -14,10 +51,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L msisdr-rescue:GND #PWR040
+L GND #PWR40
 U 1 1 5C690F71
 P 4850 4050
-F 0 "#PWR040" H 4850 3800 50  0001 C CNN
+F 0 "#PWR40" H 4850 3800 50  0001 C CNN
 F 1 "GND" H 4850 3900 50  0000 C CNN
 F 2 "" H 4850 4050 50  0001 C CNN
 F 3 "" H 4850 4050 50  0001 C CNN
@@ -25,10 +62,10 @@ F 3 "" H 4850 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L msisdr-rescue:GND #PWR041
+L GND #PWR41
 U 1 1 5C690F9B
 P 5200 4000
-F 0 "#PWR041" H 5200 3750 50  0001 C CNN
+F 0 "#PWR41" H 5200 3750 50  0001 C CNN
 F 1 "GND" H 5200 3850 50  0000 C CNN
 F 2 "" H 5200 4000 50  0001 C CNN
 F 3 "" H 5200 4000 50  0001 C CNN
@@ -42,10 +79,10 @@ USB_DM
 Text GLabel 3900 3600 0    20   Input ~ 0
 USB_DP
 $Comp
-L msisdr-rescue:GND #PWR039
+L GND #PWR39
 U 1 1 5C6911FA
 P 4600 3200
-F 0 "#PWR039" H 4600 2950 50  0001 C CNN
+F 0 "#PWR39" H 4600 2950 50  0001 C CNN
 F 1 "GND" H 4600 3050 50  0000 C CNN
 F 2 "" H 4600 3200 50  0001 C CNN
 F 3 "" H 4600 3200 50  0001 C CNN
@@ -53,7 +90,7 @@ F 3 "" H 4600 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L msisdr-rescue:C C38
+L C C38
 U 1 1 5C691852
 P 7150 3000
 F 0 "C38" H 7175 3100 50  0000 L CNN
@@ -64,7 +101,7 @@ F 3 "" H 7150 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L msisdr-rescue:C C37
+L C C37
 U 1 1 5C6918BB
 P 6450 2950
 F 0 "C37" H 6475 3050 50  0000 L CNN
@@ -75,10 +112,10 @@ F 3 "" H 6450 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L msisdr-rescue:GND #PWR046
+L GND #PWR46
 U 1 1 5C691B40
 P 6800 3250
-F 0 "#PWR046" H 6800 3000 50  0001 C CNN
+F 0 "#PWR46" H 6800 3000 50  0001 C CNN
 F 1 "GND" H 6800 3100 50  0000 C CNN
 F 2 "" H 6800 3250 50  0001 C CNN
 F 3 "" H 6800 3250 50  0001 C CNN
@@ -86,10 +123,10 @@ F 3 "" H 6800 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L msisdr-rescue:GND #PWR045
+L GND #PWR45
 U 1 1 5C692086
 P 6450 3200
-F 0 "#PWR045" H 6450 2950 50  0001 C CNN
+F 0 "#PWR45" H 6450 2950 50  0001 C CNN
 F 1 "GND" H 6450 3050 50  0000 C CNN
 F 2 "" H 6450 3200 50  0001 C CNN
 F 3 "" H 6450 3200 50  0001 C CNN
@@ -97,10 +134,10 @@ F 3 "" H 6450 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L msisdr-rescue:GND #PWR047
+L GND #PWR47
 U 1 1 5C6920B8
 P 7150 3250
-F 0 "#PWR047" H 7150 3000 50  0001 C CNN
+F 0 "#PWR47" H 7150 3000 50  0001 C CNN
 F 1 "GND" H 7150 3100 50  0000 C CNN
 F 2 "" H 7150 3250 50  0001 C CNN
 F 3 "" H 7150 3250 50  0001 C CNN
@@ -108,10 +145,10 @@ F 3 "" H 7150 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L msisdr-rescue:GND #PWR044
+L GND #PWR44
 U 1 1 5C69221A
 P 6150 2200
-F 0 "#PWR044" H 6150 1950 50  0001 C CNN
+F 0 "#PWR44" H 6150 1950 50  0001 C CNN
 F 1 "GND" H 6150 2050 50  0000 C CNN
 F 2 "" H 6150 2200 50  0001 C CNN
 F 3 "" H 6150 2200 50  0001 C CNN
@@ -123,7 +160,7 @@ VRF
 Text GLabel 7150 1850 2    20   Input ~ 0
 V18-SYNTH
 $Comp
-L msisdr-rescue:C C36
+L C C36
 U 1 1 5C69264E
 P 5350 1900
 F 0 "C36" H 5375 2000 50  0000 L CNN
@@ -134,10 +171,10 @@ F 3 "" H 5350 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L msisdr-rescue:GND #PWR042
+L GND #PWR42
 U 1 1 5C692712
 P 5350 2200
-F 0 "#PWR042" H 5350 1950 50  0001 C CNN
+F 0 "#PWR42" H 5350 1950 50  0001 C CNN
 F 1 "GND" H 5350 2050 50  0000 C CNN
 F 2 "" H 5350 2200 50  0001 C CNN
 F 3 "" H 5350 2200 50  0001 C CNN
@@ -145,10 +182,10 @@ F 3 "" H 5350 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L msisdr-rescue:GND #PWR048
+L GND #PWR48
 U 1 1 5C693D92
 P 7800 4300
-F 0 "#PWR048" H 7800 4050 50  0001 C CNN
+F 0 "#PWR48" H 7800 4050 50  0001 C CNN
 F 1 "GND" H 7800 4150 50  0000 C CNN
 F 2 "" H 7800 4300 50  0001 C CNN
 F 3 "" H 7800 4300 50  0001 C CNN
@@ -156,7 +193,7 @@ F 3 "" H 7800 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L msisdr-rescue:USB_OTG J11
+L USB_OTG J11
 U 1 1 5C695F80
 P 7800 3700
 F 0 "J11" H 7600 4150 50  0000 L CNN
@@ -169,7 +206,7 @@ $EndComp
 NoConn ~ 7500 3900
 NoConn ~ 7900 4100
 $Comp
-L msisdr-rescue:CP C35
+L CP C35
 U 1 1 5C6ADA0A
 P 4600 2950
 F 0 "C35" H 4625 3050 50  0000 L CNN
@@ -180,11 +217,9 @@ F 3 "" H 4600 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L msisdr-rescue:APE8865NR-30-HF-3 U4
+L APE8865NR-30-HF-3 U4
 U 1 1 5CB1DEB2
 P 6800 2550
-AR Path="/5CB1DEB2" Ref="U4"  Part="1" 
-AR Path="/5C68CE79/5CB1DEB2" Ref="U4"  Part="1" 
 F 0 "U4" H 6650 2675 50  0000 C CNN
 F 1 "AP7313-30SAG" H 6400 2750 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 6800 2775 50  0001 C CIN
@@ -193,7 +228,7 @@ F 3 "" H 6800 2500 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L msisdr-rescue:APE8865Y5-28-HF-3 U3
+L APE8865Y5-28-HF-3 U3
 U 1 1 5CB1E3FD
 P 6150 1650
 F 0 "U3" H 5900 1875 50  0000 C CNN
@@ -204,7 +239,7 @@ F 3 "" H 6150 1750 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L msisdr-rescue:C C40
+L C C40
 U 1 1 5CB1E84A
 P 5700 2000
 F 0 "C40" H 5725 2100 50  0000 L CNN
@@ -215,10 +250,10 @@ F 3 "" H 5700 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L msisdr-rescue:GND #PWR043
+L GND #PWR43
 U 1 1 5CB1E8F3
 P 5700 2350
-F 0 "#PWR043" H 5700 2100 50  0001 C CNN
+F 0 "#PWR43" H 5700 2100 50  0001 C CNN
 F 1 "GND" H 5700 2200 50  0000 C CNN
 F 2 "" H 5700 2350 50  0001 C CNN
 F 3 "" H 5700 2350 50  0001 C CNN
@@ -226,7 +261,7 @@ F 3 "" H 5700 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L msisdr-rescue:D_Schottky_x2_Serial_AKC D1
+L D_Schottky_x2_Serial_AKC D1
 U 1 1 5CBC63C6
 P 4850 3600
 F 0 "D1" H 4900 3500 50  0000 C CNN
@@ -237,7 +272,7 @@ F 3 "" H 4850 3600 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L msisdr-rescue:D_Schottky_x2_Serial_AKC D2
+L D_Schottky_x2_Serial_AKC D2
 U 1 1 5CBC651E
 P 5200 3600
 F 0 "D2" H 5250 3500 50  0000 C CNN

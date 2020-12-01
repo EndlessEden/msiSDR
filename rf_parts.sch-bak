@@ -469,26 +469,26 @@ F 3 "" H 8800 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J12
+L Connector_Generic:Conn_01x02 J?
 U 1 1 5FCA8DD8
 P 8400 2300
-F 0 "J12" H 8480 2292 50  0000 L CNN
+F 0 "J?" H 8480 2292 50  0000 L CNN
 F 1 "Conn_01x02" H 8480 2201 50  0000 L CNN
-F 2 "Connector_Coaxial:U.FL_Molex_MCRF_73412-0110_Vertical" H 8400 2300 50  0001 C CNN
+F 2 "" H 8400 2300 50  0001 C CNN
 F 3 "~" H 8400 2300 50  0001 C CNN
 	1    8400 2300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
+	8100 2200 8100 2300
+Wire Wire Line
+	8100 2300 8200 2300
+Wire Wire Line
+	8100 2200 8800 2200
+Wire Wire Line
+	8000 2100 8000 2400
+Wire Wire Line
 	8000 2400 8200 2400
 Wire Wire Line
-	8000 2200 8000 2400
-Wire Wire Line
-	8000 2200 8800 2200
-Wire Wire Line
-	7900 2300 7900 2100
-Wire Wire Line
-	7900 2300 8200 2300
-Wire Wire Line
-	7900 2100 9050 2100
+	8000 2100 9050 2100
 $EndSCHEMATC

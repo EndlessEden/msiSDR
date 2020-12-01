@@ -1,5 +1,42 @@
-EESchema Schematic File Version 4
-EELAYER 30 0
+EESchema Schematic File Version 2
+LIBS:msisdr-rescue
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:msi
+LIBS:msi001
+LIBS:lp5900sdx-2
+LIBS:msisdr-cache
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -14,7 +51,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L msisdr-rescue:L L3
+L L L3
 U 1 1 5C694291
 P 4000 2500
 F 0 "L3" V 3950 2500 50  0000 C CNN
@@ -25,7 +62,7 @@ F 3 "" H 4000 2500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L msisdr-rescue:C C27
+L C C27
 U 1 1 5C6942E9
 P 3250 2500
 F 0 "C27" H 3275 2600 50  0000 L CNN
@@ -36,7 +73,7 @@ F 3 "" H 3250 2500 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L msisdr-rescue:C C29
+L C C29
 U 1 1 5C694335
 P 3750 3200
 F 0 "C29" H 3775 3300 50  0000 L CNN
@@ -47,13 +84,13 @@ F 3 "" H 3750 3200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	2000 2500 2700 2500
+	2000 2500 3100 2500
 Connection ~ 2700 2500
 $Comp
-L msisdr-rescue:GND #PWR035
+L GND #PWR35
 U 1 1 5C69457C
 P 4800 3700
-F 0 "#PWR035" H 4800 3450 50  0001 C CNN
+F 0 "#PWR35" H 4800 3450 50  0001 C CNN
 F 1 "GND" H 4800 3550 50  0000 C CNN
 F 2 "" H 4800 3700 50  0001 C CNN
 F 3 "" H 4800 3700 50  0001 C CNN
@@ -61,10 +98,10 @@ F 3 "" H 4800 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L msisdr-rescue:GND #PWR033
+L GND #PWR33
 U 1 1 5C6945CA
 P 2250 2950
-F 0 "#PWR033" H 2250 2700 50  0001 C CNN
+F 0 "#PWR33" H 2250 2700 50  0001 C CNN
 F 1 "GND" H 2250 2800 50  0000 C CNN
 F 2 "" H 2250 2950 50  0001 C CNN
 F 3 "" H 2250 2950 50  0001 C CNN
@@ -72,14 +109,14 @@ F 3 "" H 2250 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2000 2600 2150 2600
+	2000 2600 2250 2600
 Wire Wire Line
 	2250 2600 2250 2950
 $Comp
-L msisdr-rescue:GND #PWR034
+L GND #PWR34
 U 1 1 5C694E32
 P 2350 4700
-F 0 "#PWR034" H 2350 4450 50  0001 C CNN
+F 0 "#PWR34" H 2350 4450 50  0001 C CNN
 F 1 "GND" H 2350 4550 50  0000 C CNN
 F 2 "" H 2350 4700 50  0001 C CNN
 F 3 "" H 2350 4700 50  0001 C CNN
@@ -89,9 +126,9 @@ $EndComp
 Wire Wire Line
 	2350 4700 2350 4350
 Wire Wire Line
-	2350 4350 2200 4350
+	2350 4350 2100 4350
 $Comp
-L msisdr-rescue:L L1
+L L L1
 U 1 1 5C694EF0
 P 2850 4250
 F 0 "L1" V 2800 4250 50  0000 C CNN
@@ -102,7 +139,7 @@ F 3 "" H 2850 4250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L msisdr-rescue:C C30
+L C C30
 U 1 1 5C694F53
 P 3850 4250
 F 0 "C30" H 3875 4350 50  0000 L CNN
@@ -113,7 +150,7 @@ F 3 "" H 3850 4250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L msisdr-rescue:L L2
+L L L2
 U 1 1 5C694FBF
 P 3850 4650
 F 0 "L2" V 3800 4650 50  0000 C CNN
@@ -124,7 +161,7 @@ F 3 "" H 3850 4650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L msisdr-rescue:C C32
+L C C32
 U 1 1 5C69501A
 P 4900 4400
 F 0 "C32" H 4925 4500 50  0000 L CNN
@@ -137,11 +174,11 @@ $EndComp
 Wire Wire Line
 	2100 4250 2700 4250
 Wire Wire Line
-	3000 4250 3300 4250
+	3000 4250 3700 4250
 Wire Wire Line
 	4000 4250 4600 4250
 Wire Wire Line
-	4600 4250 4600 4400
+	4600 4250 4600 4650
 Wire Wire Line
 	4600 4400 4750 4400
 Wire Wire Line
@@ -161,10 +198,10 @@ UHF_400_1000MHZ
 Text GLabel 8900 4200 2    20   Input ~ 0
 VHF_50_120MHZ
 $Comp
-L msisdr-rescue:GND #PWR036
+L GND #PWR36
 U 1 1 5C69650E
 P 8650 2950
-F 0 "#PWR036" H 8650 2700 50  0001 C CNN
+F 0 "#PWR36" H 8650 2700 50  0001 C CNN
 F 1 "GND" H 8650 2800 50  0000 C CNN
 F 2 "" H 8650 2950 50  0001 C CNN
 F 3 "" H 8650 2950 50  0001 C CNN
@@ -172,10 +209,10 @@ F 3 "" H 8650 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L msisdr-rescue:GND #PWR037
+L GND #PWR37
 U 1 1 5C696581
 P 8650 3700
-F 0 "#PWR037" H 8650 3450 50  0001 C CNN
+F 0 "#PWR37" H 8650 3450 50  0001 C CNN
 F 1 "GND" H 8650 3550 50  0000 C CNN
 F 2 "" H 8650 3700 50  0001 C CNN
 F 3 "" H 8650 3700 50  0001 C CNN
@@ -183,10 +220,10 @@ F 3 "" H 8650 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L msisdr-rescue:GND #PWR038
+L GND #PWR38
 U 1 1 5C69662D
 P 8650 4500
-F 0 "#PWR038" H 8650 4250 50  0001 C CNN
+F 0 "#PWR38" H 8650 4250 50  0001 C CNN
 F 1 "GND" H 8650 4350 50  0000 C CNN
 F 2 "" H 8650 4500 50  0001 C CNN
 F 3 "" H 8650 4500 50  0001 C CNN
@@ -196,15 +233,15 @@ $EndComp
 Wire Wire Line
 	8650 4500 8650 4300
 Wire Wire Line
-	8650 4300 8450 4300
+	8650 4300 8350 4300
 Wire Wire Line
 	8650 3700 8650 3550
 Wire Wire Line
-	8650 3550 8450 3550
+	8650 3550 8350 3550
 Wire Wire Line
 	8650 2950 8650 2800
 Wire Wire Line
-	8650 2800 8450 2800
+	8650 2800 8350 2800
 Wire Wire Line
 	8350 2700 9050 2700
 Wire Wire Line
@@ -214,7 +251,7 @@ Wire Wire Line
 Text GLabel 6500 3600 2    20   Input ~ 0
 HFPORT
 $Comp
-L msisdr-rescue:C C28
+L C C28
 U 1 1 5C694529
 P 3250 2950
 F 0 "C28" H 3275 3050 50  0000 L CNN
@@ -225,7 +262,7 @@ F 3 "" H 3250 2950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L msisdr-rescue:L L4
+L L L4
 U 1 1 5C6947E7
 P 4450 2500
 F 0 "L4" V 4400 2500 50  0000 C CNN
@@ -236,7 +273,7 @@ F 3 "" H 4450 2500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L msisdr-rescue:L L5
+L L L5
 U 1 1 5C694859
 P 4900 2500
 F 0 "L5" V 4850 2500 50  0000 C CNN
@@ -247,7 +284,7 @@ F 3 "" H 4900 2500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L msisdr-rescue:L L6
+L L L6
 U 1 1 5C69485F
 P 5350 2500
 F 0 "L6" V 5300 2500 50  0000 C CNN
@@ -258,7 +295,7 @@ F 3 "" H 5350 2500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L msisdr-rescue:C C31
+L C C31
 U 1 1 5C694ABC
 P 4250 3200
 F 0 "C31" H 4275 3300 50  0000 L CNN
@@ -269,7 +306,7 @@ F 3 "" H 4250 3200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L msisdr-rescue:C C33
+L C C33
 U 1 1 5C694B0D
 P 5150 3200
 F 0 "C33" H 5175 3300 50  0000 L CNN
@@ -280,7 +317,7 @@ F 3 "" H 5150 3200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L msisdr-rescue:C C34
+L C C34
 U 1 1 5C694B60
 P 5750 3200
 F 0 "C34" H 5775 3300 50  0000 L CNN
@@ -295,15 +332,15 @@ Wire Wire Line
 Wire Wire Line
 	2700 2950 3100 2950
 Wire Wire Line
-	3400 2500 3750 2500
+	3400 2500 3850 2500
 Wire Wire Line
-	4150 2500 4250 2500
+	4150 2500 4300 2500
 Wire Wire Line
 	4600 2500 4750 2500
 Wire Wire Line
-	5050 2500 5150 2500
+	5050 2500 5200 2500
 Wire Wire Line
-	3750 2500 3750 2950
+	3750 2500 3750 3050
 Wire Wire Line
 	3750 2950 3400 2950
 Connection ~ 3750 2500
@@ -317,11 +354,11 @@ Connection ~ 5150 2500
 Wire Wire Line
 	5750 3050 5750 2500
 Wire Wire Line
-	5500 2500 5750 2500
+	5500 2500 6300 2500
 Wire Wire Line
 	3750 3350 3750 3450
 Wire Wire Line
-	3750 3450 4250 3450
+	3750 3450 5750 3450
 Wire Wire Line
 	5750 3450 5750 3350
 Wire Wire Line
@@ -336,11 +373,11 @@ Connection ~ 4800 3450
 Wire Wire Line
 	6500 3600 6300 3600
 Wire Wire Line
-	6300 2500 6300 3600
+	6300 2500 6300 4400
 Connection ~ 5750 2500
 Connection ~ 6300 3600
 $Comp
-L msisdr-rescue:Conn_01x03 J6
+L Conn_01x03 J6
 U 1 1 5C696A99
 P 1800 2600
 F 0 "J6" H 1800 2800 50  0000 C CNN
@@ -356,7 +393,7 @@ Wire Wire Line
 	2150 2700 2150 2600
 Connection ~ 2150 2600
 $Comp
-L msisdr-rescue:Conn_01x03 J7
+L Conn_01x03 J7
 U 1 1 5C696D80
 P 1900 4350
 F 0 "J7" H 1900 4550 50  0000 C CNN
@@ -372,7 +409,7 @@ Wire Wire Line
 	2200 4450 2200 4350
 Connection ~ 2200 4350
 $Comp
-L msisdr-rescue:Conn_01x03 J8
+L Conn_01x03 J8
 U 1 1 5C69724D
 P 8150 2800
 F 0 "J8" H 8150 3000 50  0000 C CNN
@@ -383,7 +420,7 @@ F 3 "" H 8150 2800 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L msisdr-rescue:Conn_01x03 J9
+L Conn_01x03 J9
 U 1 1 5C6972AA
 P 8150 3550
 F 0 "J9" H 8150 3750 50  0000 C CNN
@@ -394,7 +431,7 @@ F 3 "" H 8150 3550 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L msisdr-rescue:Conn_01x03 J10
+L Conn_01x03 J10
 U 1 1 5C697362
 P 8150 4300
 F 0 "J10" H 8150 4500 50  0000 C CNN
@@ -419,76 +456,4 @@ Wire Wire Line
 Wire Wire Line
 	8450 2900 8450 2800
 Connection ~ 8450 2800
-Wire Wire Line
-	2700 2500 3100 2500
-Wire Wire Line
-	3300 4250 3700 4250
-Wire Wire Line
-	4600 4400 4600 4650
-Wire Wire Line
-	3750 2500 3850 2500
-Wire Wire Line
-	3750 2950 3750 3050
-Wire Wire Line
-	4250 2500 4300 2500
-Wire Wire Line
-	5150 2500 5200 2500
-Wire Wire Line
-	5150 3450 5750 3450
-Wire Wire Line
-	4250 3450 4800 3450
-Wire Wire Line
-	4800 3450 5150 3450
-Wire Wire Line
-	5750 2500 6300 2500
-Wire Wire Line
-	6300 3600 6300 4400
-Wire Wire Line
-	2150 2600 2250 2600
-Wire Wire Line
-	2200 4350 2100 4350
-Wire Wire Line
-	8450 3550 8350 3550
-Wire Wire Line
-	8450 4300 8350 4300
-Wire Wire Line
-	8450 2800 8350 2800
-Text GLabel 9050 2100 2    20   Input ~ 0
-LNAND_IN
-Wire Wire Line
-	8800 2200 8800 2400
-$Comp
-L msisdr-rescue:GND #PWR0101
-U 1 1 5FC74551
-P 8800 2400
-F 0 "#PWR0101" H 8800 2150 50  0001 C CNN
-F 1 "GND" H 8805 2227 50  0000 C CNN
-F 2 "" H 8800 2400 50  0001 C CNN
-F 3 "" H 8800 2400 50  0001 C CNN
-	1    8800 2400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J12
-U 1 1 5FCA8DD8
-P 8400 2300
-F 0 "J12" H 8480 2292 50  0000 L CNN
-F 1 "Conn_01x02" H 8480 2201 50  0000 L CNN
-F 2 "Connector_Coaxial:U.FL_Molex_MCRF_73412-0110_Vertical" H 8400 2300 50  0001 C CNN
-F 3 "~" H 8400 2300 50  0001 C CNN
-	1    8400 2300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8000 2400 8200 2400
-Wire Wire Line
-	8000 2200 8000 2400
-Wire Wire Line
-	8000 2200 8800 2200
-Wire Wire Line
-	7900 2300 7900 2100
-Wire Wire Line
-	7900 2300 8200 2300
-Wire Wire Line
-	7900 2100 9050 2100
 $EndSCHEMATC
