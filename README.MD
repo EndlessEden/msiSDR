@@ -1,8 +1,8 @@
-#SDR RSP1: SIMPLIFIED
+# SDR RSP1: SIMPLIFIED
 
 ----------------------
 
-##DESCRIPTION
+## DESCRIPTION
 
 (EXPECT THIS TO BE A MESS. Its direct from my research notes!)
 
@@ -10,7 +10,7 @@
 
 ----------------------
 
-##HARDWARE
+## HARDWARE
 
 In a nutshell, its a SDR receiver with 5 bandpass filtered antenna inputs and a USB Type-C interface. With no automatic antenna switching, and soldered in-line bandpass filters. See [Schematic 1](./Images/Diagrams/REF2/Schematic 1 - RSP1-SDR-10-1.png)
 
@@ -32,7 +32,7 @@ the "SDR RSP1" comes in two different models. ["Simple"](https://world.taobao.co
 
 ----------------------
 
-##FROM THE VENDOR
+## FROM THE VENDOR
 
 [Vendor 2] "Question: What is the difference between this(SDR RSP1 Simple) and the full (SDR RSP1 full) version you sell?"
 "Answer: The full version uses 0.5PPM TCXO (Oscillators), the frequency is accurate, the simple version only uses ordinary active crystal oscillators with a small offset (not affecting reception), the simple version does not have a casing, and the antenna needs to be switched manually. The simple version is only for usability. Pursue performance. The maximum frequency of the simple version can only reach 1G, you can change it to 2G by yourself(oscillator), because the simple version has a great simplification in the circuit, and it is not as good as the full version in terms of acceptance sensitivity and selectivity, but the two are the same in function Yes ..."
@@ -41,7 +41,7 @@ the "SDR RSP1" comes in two different models. ["Simple"](https://world.taobao.co
 
 ----------------------
 
-##ORIGIN
+## ORIGIN
 
 ![HHUM](./Images/HHU/MAKER SPACE OF HUANGHUAI UNIVERSITY.webp)
 
@@ -55,7 +55,7 @@ All this information is further reinforced by other silk screens on the board(Se
 
 ----------------------
 
-###KNOWN CAVEATS
+### KNOWN CAVEATS
 
  - Software: As the 'SDR RSP1 Simple' is a modifed MSI.SDR RSP1 design (Itself Based on the SDRplay RSP1A), the msi001 and msi2500 chips can natively use SDRplay's proprietary api. However, other projects based on libusb(see mirisdr4) have come along to attempt to interface with the device's the raw I/Q stream Using similiar methods to the now famous rtlsdr project. However, since the 'RSP1 Simple' is based on the 'RSP1A', i am unaware of how well supported it would be at this moment in time. (See: https://github.com/f4exb/libmirisdr-4/issues/2) 
  
@@ -70,13 +70,13 @@ All this information is further reinforced by other silk screens on the board(Se
  
 ----------------------
 
-FURTHER IMAGES:
+## FURTHER IMAGES:
 
 
  
 --------------------------------------------------------------------------------------
 
-#GLOSSARY
+# GLOSSARY
 
 Ref 1: https://forums.radioreference.com/threads/12-bit-4-antenna-ports-35-delivered.430252/page-2 (archived: https://web.archive.org/web/20211124164150/https://forums.radioreference.com/threads/12-bit-4-antenna-ports-35-delivered.430252/page-2)
 
