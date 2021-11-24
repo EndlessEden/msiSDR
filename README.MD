@@ -2,7 +2,7 @@
 
 ## DESCRIPTION
 
-(EXPECT THIS TO BE A MESS. Its direct from my research notes!)
+(EXPECT THIS TO BE A MESS. It's direct from my research notes!)
 
 "SDR RSP1 Simple" often referred to by "BG7YZF", is a SDRPlay RSP1/RSP1a clone with a simplified circuit. The SDR RSP1 is a redesign of the [MSI.SDR](https://github.com/11tools/msiSDR), a clone of the SDRplay RSP1A. All of these use the Msi001 and the Msi2500 (Sometimes called Msi3001 when used in this combo) chips which according to the vendor the SDR.RSP1 "Based on a simple small production made by Gao Wan"
 
@@ -10,7 +10,7 @@
 
 ## HARDWARE
 
-In a nutshell, its a SDR receiver with 5 bandpass filtered antenna inputs and a USB Type-C interface. With no automatic antenna switching, and soldered in-line bandpass filters.
+In a nutshell, it's a SDR receiver with 5 bandpass filtered antenna inputs and a USB Type-C interface. With no automatic antenna switching, and soldered in-line bandpass filters.
 
 ![Schematic 1](./Images/Diagrams/REF2/Schematic%201%20-%20RSP1-SDR-10-1.png)
 
@@ -32,7 +32,7 @@ MSPS from 9 to 10 MHz (8 bits).
 - With a SNR of 60 dB.
 
 
-the "SDR RSP1" comes in two different models. ["Simple"](https://world.taobao.com/item/647736653771.htm?spm=a21wu.11804641.0.0.508e39d3yTvEJb) and ["Full"](https://www.taobao.com/list/item/645090109900.htm), their antenna circuitry, oscillators and filtering are different. The "Full" is notably better due to being simpler to operate, having a better oscillator and improved filtering. But all of these are design choices to cut costs. Outside the headaches with the Msi001's antenna switching, all other changes done to the "Full" version are entirely possible on the "Simple" version. Some of this can be done by the user if they are expierenced in SMP soldering.
+the "SDR RSP1" comes in two different models. ["Simple"](https://world.taobao.com/item/647736653771.htm?spm=a21wu.11804641.0.0.508e39d3yTvEJb) and ["Full"](https://www.taobao.com/list/item/645090109900.htm), their antenna circuitry, oscillators and filtering are different. The "Full" is notably better due to being simpler to operate, having a better oscillator and improved filtering. But all of these are design choices to cut costs. Outside the headaches with the Msi001's antenna switching, all other changes done to the "Full" version are entirely possible on the "Simple" version. Some of this can be done by the user if they are experienced in SMP soldering.
 
 ----------------------
 
@@ -52,7 +52,7 @@ the "SDR RSP1" comes in two different models. ["Simple"](https://world.taobao.co
 
 ![HHUM](./Images/HHU/MAKER%20SPACE%20OF%20HUANGHUAI%20UNIVERSITY.webp)
 
-The "SDR RSP1 Simple" design originates from Huanghuai University(MAKER SPACE OF HUANGHUAI UNIVERSITY[香港 创 客 空 闪])(* See HHU), The design originates from research done by a member know as "Smith" on their "Domestic science and technology forum" ( See [Design](https://www.kechuang.org/t/83757) ). The SDR RSP1's are improvements to these designs by "BG7YZF". A self-described as "a computer science and technology undergraduate student who is engaged in radio, model aircraft, drone, and photography." on their vendor page.
+The "SDR RSP1 Simple" design originates from Huanghuai University(MAKER SPACE OF HUANGHUAI UNIVERSITY[香港 创 客 空 闪])(* See HHU), The design originates from research done by a member known as "Smith" on their "Domestic science and technology forum" ( See [Design](https://www.kechuang.org/t/83757) ). The SDR RSP1's are improvements to these designs by "BG7YZF". A self-described as "a computer science and technology undergraduate student who is engaged in radio, model aircraft, drone, and photography." on their vendor page.
 
 ![HHUMW](./Images/vendor/O1CN01rGRH3j1FT5b7LkS9z_!!2200556750487.jpg_q50s50.jpg_.webp)
 
@@ -60,21 +60,21 @@ The "DE BG7YZF" silk screen refers to the designer, BG7YZF (a unregistered calls
 
 The vendor "家晨科創"[Jiachen Technology](https://world.taobao.com/dianpu/573333074.htm?spm=a21wu.12321156.shop-area.1.4170796aFrsOco) seems to be ![BG7YZF](./Images/vendor.jpg) as their callsign is their literal logo. Supporting images in the product pages suggest they are the legitimate Vendors of the board(s).
 
-All this information is further reinforced by other silk screens on the board (See images below). "Maker Space of Huanghuai University"(Self Explanitory), "Research, Science, Technology and prepare to serve the motherland"(HHU Qoute), and "家晨科创"[https://t.bilibili.com/550480890268977421?tab=2](https://t.bilibili.com/550480890268977421?tab=2) Which this last one is litterally "BG7YZF".
+All this information is further reinforced by other silk screens on the board (See images below). "Maker Space of Huanghuai University"(Self Explanatory), "Research, Science, Technology and prepare to serve the motherland"(HHU Quote), and "家晨科创"[https://t.bilibili.com/550480890268977421?tab=2](https://t.bilibili.com/550480890268977421?tab=2) This last one is literally "BG7YZF".
 
 ----------------------
 
 ### KNOWN CAVEATS
 
- - Software: As the 'SDR RSP1 Simple' is a modifed MSI.SDR RSP1 design (Itself Based on the SDRplay RSP1A), the msi001 and msi2500 chips can natively use SDRplay's proprietary api. However, other projects based on libusb(see mirisdr4) have come along to attempt to interface with the device's the raw I/Q stream Using similiar methods to the now famous rtlsdr project. However, since the 'RSP1 Simple' is based on the 'RSP1A', i am unaware of how well supported it would be at this moment in time. (See: https://github.com/f4exb/libmirisdr-4/issues/2) 
+ - Software: As the 'SDR RSP1 Simple' is a modified MSI.SDR RSP1 design (Itself Based on the SDRplay RSP1A), the msi001 and msi2500 chips can natively use SDRplay's proprietary api. However, other projects based on libusb(see mirisdr4) have come along to attempt to interface with the device's raw I/Q stream Using similar methods to the now famous rtlsdr project. However, since the 'RSP1 Simple' is based on the 'RSP1A', i am unaware of how well supported it would be at this moment in time. (See: https://github.com/f4exb/libmirisdr-4/issues/2) 
  
- - Tuning: the SDR RSP1 Simple requires "manual antenna switching"(This is poorly documented!), unlike its "Full" version. As expected from its poorly documented nature, Users report "RSP1 Simple"/"BG7YZF" cannot tune out of FM broadcast frequency range (See: Ref 1/Ref 3). Although reports show otherwise (See: Ref 4) | As mentioned, the antenna's have to be manually "Switched", The Msi001 is entirely capable of tuning frequency seperated antennas, thus its design. However, switching antenna sources seems to be something that has to be done at the msi001(Tuner)'s initialisation. This is all very poorly documented and even the vendor doesnt document this properly. Only vaguely mentioning it in a additional "Faq" area at the bottom of their product advert... | I will review and document what i learn when i have more time understand the issue. I have yet to test the device at all, so i have no idea of its functionality as of yet.
+ - Tuning: the SDR RSP1 Simple requires "manual antenna switching"(This is poorly documented!), unlike its "Full" version. As expected from its poorly documented nature, Users report "RSP1 Simple"/"BG7YZF" cannot tune out of FM broadcast frequency range (See: Ref 1/Ref 3). Although reports show otherwise (See: Ref 4) | As mentioned, the antennas have to be manually "Switched", The Msi001 is entirely capable of tuning frequency separated antennas, thus its design. However, switching antenna sources seems to be something that has to be done at the msi001(Tuner)'s initialisation. This is all very poorly documented and even the vendor does not  document this properly. Only vaguely mentioning it in an additional "Faq" area at the bottom of their product advert... | I will review and document what i learn when i have more time to understand the issue. I have yet to test the device at all, so i have no idea of its functionality as of yet.
  
- - USB 2.0 Type-C: USB-C interface seems to have several datalines not connected, suggesting it can only achieve USB 2.0 "High-Speed" speeds. While this should be fine (in theory), it may limit bandwidth in some circumstances. The Msi2500's USB Interface is unknown to me at the time of writing, so its suggested it follows USB 1.1/2.0 specifications. limiting many factors including the length of the cable significantly. This is due to power limitations that USB2.0 specification lays out not allowing more than 5v/0.5A(500mA), or 2.5w power draw. This limitation prevents long cable lengths due to the loss expierenced at 3M, limiting it to a thereoretical maximum of 5m. | Something Usb3.0+ partially overcame with power specification changes. Most importantly this allows for in-line Active USB cables instead of passive, extending length to up to 50M with limited loss. All of this is mute if in fact Msi001 is usb 2.0 only, but if its capable of 3.0, then the wiring is a design fault for certian.
+ - USB 2.0 Type-C: USB-C interface seems to have several datalines not connected, suggesting it can only achieve USB 2.0 "High-Speed" speeds. While this should be fine (in theory), it may limit bandwidth in some circumstances. The Msi2500's USB Interface is unknown to me at the time of writing, so its suggested it follows USB 1.1/2.0 specifications. limiting many factors including the length of the cable significantly. This is due to power limitations that USB2.0 specification lays out not allowing more than 5v/0.5A(500mA), or 2.5w power draw. This limitation prevents long cable lengths due to the loss experienced at 3M, limiting it to a theoretical maximum of 5m. | Something Usb3.0+ partially overcame with power specification changes. Most importantly this allows for in-line Active USB cables instead of passive, extending length to up to 50M with limited loss. All of this is mute if in fact Msi001 is usb 2.0 only, but if it is capable of 3.0, then the wiring is a design fault for certain.
  
- - Undocumented Variants: Design has Undocumented variants (See: R4-E) as seen in The Ebay listing shared in Reference 4. It shows a model that has different silkscreening and what appears to be slightly different design choices. None of this is documented and the seller shows the device as "New". This may be clone/counterfiet, But i cant confirm or deny any of this. - No user images have surfaced of this device in use and very little information of SDR RSP1 Simple in use exists in general. While some testing exists of the SDR RSP1 Full, the simplified is overlooked due to its undocumented caveats surround the intenna inputs.
+ - Undocumented Variants: Design has Undocumented variants (See: R4-E) as seen in The Ebay listing shared in Reference 4. It shows a model that has different silkscreening and what appears to be slightly different design choices. None of this is documented and the seller shows the device as "New". This may be a clone/counterfeit, But i can't confirm or deny any of this. - No user images have surfaced of this device in use and very little information of SDR RSP1 Simple in use exists in general. While some testing exists of the SDR RSP1 Full, the simplified is overlooked due to its undocumented caveats surround the intenna inputs.
  
- - Case: The SDR RSP1 Simple doesnt have or come with vendor supplied case. This is a design choice as the "Simple" version is supposed to be a educational kit clearly. However, as case DOES exist from a french maker (https://www.thingiverse.com/thing:4988416)a
+ - Case: The SDR RSP1 Simple doesn't have or come with a vendor supplied case. This is a design choice as the "Simple" version is supposed to be an educational kit clearly. However, as case DOES exist from a french maker (https://www.thingiverse.com/thing:4988416)a
  
  
 ----------------------
