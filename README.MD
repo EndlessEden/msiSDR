@@ -1,8 +1,8 @@
-SDR RSP1: SIMPLIFIED
+#SDR RSP1: SIMPLIFIED
 
 ----------------------
 
-DESCRIPTION
+##DESCRIPTION
 
 (EXPECT THIS TO BE A MESS. Its direct from my research notes!)
 
@@ -10,7 +10,7 @@ DESCRIPTION
 
 ----------------------
 
-HARDWARE
+##HARDWARE
 
 In a nutshell, its a SDR receiver with 5 bandpass filtered antenna inputs and a USB Type-C interface. With no automatic antenna switching, and soldered in-line bandpass filters. See [Schematic 1](./Images/Diagrams/REF2/Schematic 1 - RSP1-SDR-10-1.png)
 
@@ -32,7 +32,7 @@ the "SDR RSP1" comes in two different models. ["Simple"](https://world.taobao.co
 
 ----------------------
 
-FROM THE VENDOR
+##FROM THE VENDOR
 
 [Vendor 2] "Question: What is the difference between this(SDR RSP1 Simple) and the full (SDR RSP1 full) version you sell?"
 "Answer: The full version uses 0.5PPM TCXO (Oscillators), the frequency is accurate, the simple version only uses ordinary active crystal oscillators with a small offset (not affecting reception), the simple version does not have a casing, and the antenna needs to be switched manually. The simple version is only for usability. Pursue performance. The maximum frequency of the simple version can only reach 1G, you can change it to 2G by yourself(oscillator), because the simple version has a great simplification in the circuit, and it is not as good as the full version in terms of acceptance sensitivity and selectivity, but the two are the same in function Yes ..."
@@ -41,7 +41,7 @@ FROM THE VENDOR
 
 ----------------------
 
-ORIGIN
+##ORIGIN
 
 ![HHUM](./Images/HHU/MAKER SPACE OF HUANGHUAI UNIVERSITY.webp)
 
@@ -55,7 +55,7 @@ All this information is further reinforced by other silk screens on the board(Se
 
 ----------------------
 
-KNOWN CAVEATS
+###KNOWN CAVEATS
 
  - Software: As the 'SDR RSP1 Simple' is a modifed MSI.SDR RSP1 design (Itself Based on the SDRplay RSP1A), the msi001 and msi2500 chips can natively use SDRplay's proprietary api. However, other projects based on libusb(see mirisdr4) have come along to attempt to interface with the device's the raw I/Q stream Using similiar methods to the now famous rtlsdr project. However, since the 'RSP1 Simple' is based on the 'RSP1A', i am unaware of how well supported it would be at this moment in time. (See: https://github.com/f4exb/libmirisdr-4/issues/2) 
  
@@ -76,14 +76,18 @@ FURTHER IMAGES:
  
 --------------------------------------------------------------------------------------
 
-GLOSSARY
+#GLOSSARY
 
 Ref 1: https://forums.radioreference.com/threads/12-bit-4-antenna-ports-35-delivered.430252/page-2 (archived: https://web.archive.org/web/20211124164150/https://forums.radioreference.com/threads/12-bit-4-antenna-ports-35-delivered.430252/page-2)
+
 Ref 2: http://hamforum.ru/viewtopic.php?t=725 (archived: https://web.archive.org/web/20211124164546/http://hamforum.ru/viewtopic.php?t=725)
+
 Ref 3: https://www.reddit.com/r/RTLSDR/comments/onftps/any_feedback_on_the_bg7yzf_version_of_the_msi_001/ (archived: https://web.archive.org/web/20211124182343/https://www.reddit.com/r/RTLSDR/comments/onftps/any_feedback_on_the_bg7yzf_version_of_the_msi_001/)
+
 Ref 4: https://www.reddit.com/r/RTLSDR/comments/qnlfwq/rsp1_chinese_clone_reviewissues/ (archived: https://web.archive.org/web/20211105214824/https://www.reddit.com/r/RTLSDR/comments/qnlfwq/rsp1_chinese_clone_reviewissues/) | the ebay listing and album are archived as well
 
-R4-E: https://www.ebay.com/itm/255106602228 (archived: https://www.ebay.com/itm/255106602228) [Taken from Ref 4's post]
+R4-E: https://www.ebay.com/itm/255106602228 (archived: https://www.ebay.com/itm/255106602228) [Taken from Ref 4's post
+
 R4-A: https://imgur.com/a/kOgz7DM (archived: https://web.archive.org/web/20211118155743/https://imgur.com/a/kOgz7DM) [Taken from Ref 4's post]
 
 Mirisdr4: https://github.com/f4exb/libmirisdr-4 (archived: https://web.archive.org/web/20211124170317/https://github.com/f4exb/libmirisdr-4)
@@ -93,12 +97,15 @@ Case: https://www.thingiverse.com/thing:4988416 (archived: https://web.archive.o
 DE-W: https://en.wikipedia.org/wiki/Amateur_radio_call_signs
 
 HHU: http://cms2.huanghuai.edu.cn/s.php/english/item-view-id-21110.html
+
 HHU-2: http://cms2.huanghuai.edu.cn/s.php/english/item-view-id-39020.html
 
 Design: https://www.kechuang.org/t/83757 (archived: https://web.archive.org/web/20211124211743/https://www.kechuang.org/t/83757) *(Translated: https://world.taobao.com/item/647736653771.htm?spm=a21wu.11804641.0.0.508e39d3WbK6VD)
 
 Vendor 1: https://world.taobao.com/dianpu/573333074.htm?spm=a21wu.12321156.shop-area.1.4170796aFrsOco (archived: https://world.taobao.com/dianpu/573333074.htm?spm=a21wu.12321156.shop-area.1.4170796aFrsOco)
+
 Vendor 2: https://world.taobao.com/item/647736653771.htm?spm=a21wu.11804641.0.0.508e39d3yTvEJb (archived: https://web.archive.org/web/20211124164116/https://world.taobao.com/item/647736653771.htm?spm=a21wu.11804641.0.0.508e39d3yTvEJb)
+
 Vendor 3: https://www.taobao.com/list/item/645090109900.htm (archived: https://web.archive.org/web/20211124164116/https://www.taobao.com/list/item/645090109900.htm)
 
 VideoD1: https://www.bilibili.com/video/BV1Co4y1D7R2/ (archived: https://web.archive.org/web/20211124164152/https://www.bilibili.com/video/BV1Co4y1D7R2/)
