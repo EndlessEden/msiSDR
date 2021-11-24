@@ -12,11 +12,11 @@
 
 ## HARDWARE
 
-In a nutshell, its a SDR receiver with 5 bandpass filtered antenna inputs and a USB Type-C interface. With no automatic antenna switching, and soldered in-line bandpass filters. See [Schematic 1](./Images/Diagrams/REF2/Schematic 1 - RSP1-SDR-10-1.png)
+In a nutshell, its a SDR receiver with 5 bandpass filtered antenna inputs and a USB Type-C interface. With no automatic antenna switching, and soldered in-line bandpass filters. See ![Schematic 1](./Images/Diagrams/REF2/"Schematic 1 - RSP1-SDR-10-1.png")
 
-The [msi001](./Datasheets/msi001 datasheet.pdf) microcircuit contains 5 antenna amplifiers (each for its own range), a synthesizer and quadrature mixers outputting I/Q signals, software-controlled bandpass filters and amplifiers. See: (msi001-BlockDiagram.jpg)[./Images/Diagrams/REF2/msi001-BlockDiagram.jpg]
+The [msi001](./Datasheets/"msi001 datasheet.pdf") microcircuit contains 5 antenna amplifiers (each for its own range), a synthesizer and quadrature mixers outputting I/Q signals, software-controlled bandpass filters and amplifiers. See: ![msi001-BlockDiagram.jpg](./Images/Diagrams/REF2/msi001-BlockDiagram.jpg)
 
-The [msi2500](./Datasheets/msi2500 datasheet.pdf) is a variable bit (8 to 14 bit) ADC and DSP with USB interface. See: (msi2500-BlockDiagram.jpg)[./Images/Diagrams/REF2/msi2500-BlockDiagram.jpg]
+The [msi2500](./Datasheets/"msi2500 datasheet.pdf") is a variable bit (8 to 14 bit) ADC and DSP with USB interface. See: ![msi2500-BlockDiagram](./Images/Diagrams/REF2/msi2500-BlockDiagram.jpg)
 
 The result is:
 - a range from 10 kHz to 1 GHz (with a hole at 250-400 MHz)
@@ -43,9 +43,11 @@ the "SDR RSP1" comes in two different models. ["Simple"](https://world.taobao.co
 
 ## ORIGIN
 
-![HHUM](./Images/HHU/MAKER SPACE OF HUANGHUAI UNIVERSITY.webp)
+![HHUM](./Images/HHU/"MAKER SPACE OF HUANGHUAI UNIVERSITY.webp")
 
 The "SDR RSP1 Simple" design originates from Huanghuai University(MAKER SPACE OF HUANGHUAI UNIVERSITY[香港 创 客 空 闪])(* See HHU), The design originates from research done by a member know as "Smith" on their "Domestic science and technology forum"(* See Design). The SDR RSP1's are improvements to these designs by "BG7YZF". "BG7YZF" who is self-described as "a computer science and technology undergraduate student who is engaged in radio, model aircraft, drone, and photography." on their vendor page.
+
+![HHUMW](./Images/vendor/O1CN01rGRH3j1FT5b7LkS9z_!!2200556750487.jpg_q50s50.jpg_.webp)
 
 The "DE BG7YZF" silk screen refers to the designer, BG7YZF (a unregistered callsign from China [DXCC Entity #318]) is from QTH Xincai County, Henan Province.(VideoD1) The Prefix 'DE' is a Morse code abbreviation amateur radio operators use meaning "from"(* see DE-W). 
 
