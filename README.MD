@@ -12,11 +12,17 @@
 
 ## HARDWARE
 
-In a nutshell, its a SDR receiver with 5 bandpass filtered antenna inputs and a USB Type-C interface. With no automatic antenna switching, and soldered in-line bandpass filters. See ![Schematic 1] (./Images/Diagrams/REF2/"Schematic 1 - RSP1-SDR-10-1.png")
+In a nutshell, its a SDR receiver with 5 bandpass filtered antenna inputs and a USB Type-C interface. With no automatic antenna switching, and soldered in-line bandpass filters.
 
-The [msi001] (./Datasheets/"msi001 datasheet.pdf") microcircuit contains 5 antenna amplifiers (each for its own range), a synthesizer and quadrature mixers outputting I/Q signals, software-controlled bandpass filters and amplifiers. See: ![msi001-BlockDiagram.jpg](./Images/Diagrams/REF2/msi001-BlockDiagram.jpg)
+![Schematic 1]("./Images/Diagrams/REF2/Schematic 1 - RSP1-SDR-10-1.png")
 
-The [msi2500] (./Datasheets/"msi2500 datasheet.pdf") is a variable bit (8 to 14 bit) ADC and DSP with USB interface. See: ![msi2500-BlockDiagram](./Images/Diagrams/REF2/msi2500-BlockDiagram.jpg)
+The [msi001]("./Datasheets/msi001 datasheet.pdf") microcircuit contains 5 antenna amplifiers (each for its own range), a synthesizer and quadrature mixers outputting I/Q signals, software-controlled bandpass filters and amplifiers. 
+
+![msi001-BlockDiagram.jpg](./Images/Diagrams/REF2/msi001-BlockDiagram.jpg)
+
+The [msi2500] (./Datasheets/"msi2500 datasheet.pdf") is a variable bit (8 to 14 bit) ADC and DSP with USB interface. 
+
+![msi2500-BlockDiagram](./Images/Diagrams/REF2/msi2500-BlockDiagram.jpg)
 
 The result is:
 - a range from 10 kHz to 1 GHz (with a hole at 250-400 MHz)
