@@ -14,13 +14,13 @@
 
 In a nutshell, its a SDR receiver with 5 bandpass filtered antenna inputs and a USB Type-C interface. With no automatic antenna switching, and soldered in-line bandpass filters.
 
-![Schematic 1]("./Images/Diagrams/REF2/Schematic 1 - RSP1-SDR-10-1.png")
+![Schematic 1](./Images/Diagrams/REF2/Schematic%201%20-%20RSP1-SDR-10-1.png)
 
-The [msi001]("./Datasheets/msi001 datasheet.pdf") microcircuit contains 5 antenna amplifiers (each for its own range), a synthesizer and quadrature mixers outputting I/Q signals, software-controlled bandpass filters and amplifiers. 
+The [msi001](./Datasheets/msi001%20datasheet.pdf) microcircuit contains 5 antenna amplifiers (each for its own range), a synthesizer and quadrature mixers outputting I/Q signals, software-controlled bandpass filters and amplifiers. 
 
 ![msi001-BlockDiagram.jpg](./Images/Diagrams/REF2/msi001-BlockDiagram.jpg)
 
-The [msi2500] (./Datasheets/"msi2500 datasheet.pdf") is a variable bit (8 to 14 bit) ADC and DSP with USB interface. 
+The [msi2500] (./Datasheets/msi2500%20datasheet.pdf) is a variable bit (8 to 14 bit) ADC and DSP with USB interface. 
 
 ![msi2500-BlockDiagram](./Images/Diagrams/REF2/msi2500-BlockDiagram.jpg)
 
