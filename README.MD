@@ -1,6 +1,6 @@
 # SDR RSP1: SIMPLIFIED 
 
-<img src="https://raw.githubusercontent.com/EndlessEden/msiSDR/RSP1-S/Images/RSP1-S/EbayListing/EbayListing(Newer%20Variant)-Front-transparent.jpg" width="320" height="340">
+<img src="https://raw.githubusercontent.com/EndlessEden/msiSDR/RSP1-S/Images/RSP1-S/EbayListing/EbayListing(Newer%20Variant)-Front-transparent.jpg" width="350" height="340">
 
 ## DESCRIPTION
 
