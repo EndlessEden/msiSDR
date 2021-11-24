@@ -50,17 +50,17 @@ the "SDR RSP1" comes in two different models. ["Simple"](https://world.taobao.co
 
 ## ORIGIN
 
-![HHUM](./Images/HHU/"MAKER SPACE OF HUANGHUAI UNIVERSITY.webp")
+![HHUM](./Images/HHU/MAKER%20SPACE%20OF%20HUANGHUAI%20UNIVERSITY.webp)
 
-The "SDR RSP1 Simple" design originates from Huanghuai University(MAKER SPACE OF HUANGHUAI UNIVERSITY[香港 创 客 空 闪])(* See HHU), The design originates from research done by a member know as "Smith" on their "Domestic science and technology forum"(* See Design). The SDR RSP1's are improvements to these designs by "BG7YZF". "BG7YZF" who is self-described as "a computer science and technology undergraduate student who is engaged in radio, model aircraft, drone, and photography." on their vendor page.
+The "SDR RSP1 Simple" design originates from Huanghuai University(MAKER SPACE OF HUANGHUAI UNIVERSITY[香港 创 客 空 闪])(* See HHU), The design originates from research done by a member know as "Smith" on their "Domestic science and technology forum" ( See [Design](https://www.kechuang.org/t/83757) ). The SDR RSP1's are improvements to these designs by "BG7YZF". A self-described as "a computer science and technology undergraduate student who is engaged in radio, model aircraft, drone, and photography." on their vendor page.
 
 ![HHUMW](./Images/vendor/O1CN01rGRH3j1FT5b7LkS9z_!!2200556750487.jpg_q50s50.jpg_.webp)
 
-The "DE BG7YZF" silk screen refers to the designer, BG7YZF (a unregistered callsign from China [DXCC Entity #318]) is from QTH Xincai County, Henan Province.(VideoD1) The Prefix 'DE' is a Morse code abbreviation amateur radio operators use meaning "from"(* see DE-W). 
+The "DE BG7YZF" silk screen refers to the designer, BG7YZF (a unregistered callsign from China [DXCC Entity #318]) is from QTH Xincai County, Henan Province.(VideoD1) The Prefix 'DE' is a Morse code abbreviation amateur radio operators use meaning "from"( See [DE-W](https://en.wikipedia.org/wiki/Amateur_radio_call_signs) ). 
 
-The vendor(See: Vendor 1/Vendor 2/Vendor 3) "家晨科創"(Jiachen Technology) seems to be "BG7YZF"![BG7YZF](./Images/vendor.jpg) as their callsign is their literal logo. Supporting images in the product pages suggest they are the legitimate Vendors of the board(s).
+The vendor "家晨科創"[Jiachen Technology](https://world.taobao.com/dianpu/573333074.htm?spm=a21wu.12321156.shop-area.1.4170796aFrsOco) seems to be ![BG7YZF](./Images/vendor.jpg) as their callsign is their literal logo. Supporting images in the product pages suggest they are the legitimate Vendors of the board(s).
 
-All this information is further reinforced by other silk screens on the board(See Images: images/Device/RSP1-S, R4-A, R4-E, Vendor 2). "Maker Space of Huanghuai University"(Self Explanitory), "Research, Science, Technology and prepare to serve the motherland"(HHU Qoute), and "家晨科创"(https://t.bilibili.com/550480890268977421?tab=2)[https://t.bilibili.com/550480890268977421?tab=2] Which this last one is litterally "BG7YZF".
+All this information is further reinforced by other silk screens on the board (See images below). "Maker Space of Huanghuai University"(Self Explanitory), "Research, Science, Technology and prepare to serve the motherland"(HHU Qoute), and "家晨科创"[https://t.bilibili.com/550480890268977421?tab=2](https://t.bilibili.com/550480890268977421?tab=2) Which this last one is litterally "BG7YZF".
 
 ----------------------
 
