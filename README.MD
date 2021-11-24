@@ -52,21 +52,21 @@ the "SDR RSP1" comes in two different models. ["Simple"](https://world.taobao.co
 
 ![HHUM](./Images/HHU/MAKER%20SPACE%20OF%20HUANGHUAI%20UNIVERSITY.webp)
 
-The "SDR RSP1 Simple" design originates from Huanghuai University(MAKER SPACE OF HUANGHUAI UNIVERSITY[香港 创 客 空 闪])(* See HHU), The design originates from research done by a member known as "Smith" on their "Domestic science and technology forum" ( See [Design](https://www.kechuang.org/t/83757) ). The SDR RSP1's are improvements to these designs by "BG7YZF". A self-described as "a computer science and technology undergraduate student who is engaged in radio, model aircraft, drone, and photography." on their vendor page.
+The "SDR RSP1 Simple" design originates from Huanghuai University(MAKER SPACE OF HUANGHUAI UNIVERSITY[香港 创 客 空 闪])(* See HHU), The design originates from research done by a member known as "Smith" on their "Domestic science and technology forum" (See [Design](https://www.kechuang.org/t/83757)). The SDR RSP1's are improvements to these designs by "BG7YZF". A self-described as "a computer science and technology undergraduate student who is engaged in radio, model aircraft, drone, and photography." on their vendor page.
 
 ![HHUMW](./Images/vendor/O1CN01rGRH3j1FT5b7LkS9z_!!2200556750487.jpg_q50s50.jpg_.webp)
 
 The "DE BG7YZF" silk screen refers to the designer, BG7YZF (a unregistered callsign from China [DXCC Entity #318]) is from QTH Xincai County, Henan Province. [VideoD1](https://www.bilibili.com/video/BV1Co4y1D7R2/) 
 
-The Prefix 'DE' is a Morse code abbreviation amateur radio operators use meaning "from"( See [DE-W](https://en.wikipedia.org/wiki/Amateur_radio_call_signs) ). 
+The Prefix 'DE' is a Morse code abbreviation amateur radio operators use meaning "from" (See [DE-W](https://en.wikipedia.org/wiki/Amateur_radio_call_signs)). 
 
 The vendor "家晨科創" [Jiachen Technology](https://world.taobao.com/dianpu/573333074.htm?spm=a21wu.12321156.shop-area.1.4170796aFrsOco) seems to be ![BG7YZF](./Images/vendor.jpg) as their callsign is their literal logo. Supporting images in the product pages suggest they are the legitimate Vendors of the board(s).
 
 All this information is further reinforced by other silk screens on the board (See images below):
 
-"Maker Space of Huanghuai University"(Self Explanatory)
+"Maker Space of Huanghuai University" (Self Explanatory)
 
-"Research, Science, Technology and prepare to serve the motherland"(HHU Quote)
+"Research, Science, Technology and prepare to serve the motherland" (HHU Quote)
 
 and "家晨科创" [https://t.bilibili.com/550480890268977421?tab=2](https://t.bilibili.com/550480890268977421?tab=2) This last one is literally "BG7YZF".
 
