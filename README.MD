@@ -82,7 +82,7 @@ and "家晨科创" [https://t.bilibili.com/550480890268977421?tab=2](https://t.b
  
  - Undocumented Variants: Design has Undocumented variants (See: [R4-E](https://www.ebay.com/itm/255106602228)) as seen in The Ebay listing shared in [Reference 4](https://www.reddit.com/r/RTLSDR/comments/qnlfwq/rsp1_chinese_clone_reviewissues/). It shows a model that has different silkscreening and what appears to be slightly different design choices. None of this is documented and the seller shows the device as "New". This may be a clone/counterfeit, But i can't confirm or deny any of this. - No user images have surfaced of this device in use and very little information of SDR RSP1 Simple in use exists in general. While some testing exists of the SDR RSP1 Full, the simplified is overlooked due to its undocumented caveats surround the intenna inputs.
  
- - Case: The SDR RSP1 Simple doesn't have or come with a vendor supplied case. This is a design choice as the "Simple" version is supposed to be an educational kit clearly. However, as case DOES exist from a french maker [![case](https://cdn.thingiverse.com/assets/ec/09/71/06/4d/featured_preview_20211007_191126-min.jpg =250x250)](https://www.thingiverse.com/thing:4988416)
+ - Case: The SDR RSP1 Simple doesn't have or come with a vendor supplied case. This is a design choice as the "Simple" version is supposed to be an educational kit clearly. However, as case DOES exist from a french maker [![case](https://cdn.thingiverse.com/assets/ec/09/71/06/4d/featured_preview_20211007_191126-min.jpg s=250x250)](https://www.thingiverse.com/thing:4988416)
  
  
 ----------------------
