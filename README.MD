@@ -104,7 +104,7 @@ Ref 3: https://www.reddit.com/r/RTLSDR/comments/onftps/any_feedback_on_the_bg7yz
 
 Ref 4: https://www.reddit.com/r/RTLSDR/comments/qnlfwq/rsp1_chinese_clone_reviewissues/ (archived: https://web.archive.org/web/20211105214824/https://www.reddit.com/r/RTLSDR/comments/qnlfwq/rsp1_chinese_clone_reviewissues/) | the ebay listing and album are archived as well
 
-R4-E: https://www.ebay.com/itm/255106602228 (archived: https://www.ebay.com/itm/255106602228) [Taken from Ref 4's post
+R4-E: https://www.ebay.com/itm/255106602228 (archived: https://www.ebay.com/itm/255106602228) [Taken from Ref 4's post]
 
 R4-A: https://imgur.com/a/kOgz7DM (archived: https://web.archive.org/web/20211118155743/https://imgur.com/a/kOgz7DM) [Taken from Ref 4's post]
 
