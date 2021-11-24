@@ -6,6 +6,8 @@ DESCRIPTION
 
 "SDR RSP1 Simple" often referred to by "BG7YZF", is a SDRPlay RSP1/RSP1a clone with a simplified circuit. The SDR RSP1 is a redesign of the MSI.SDR, a clone of the SDRplay RSP1A. All of these use the Msi001 and the Msi2500 (Sometimes called Msi3001 when used in this combo) chips which according to the vendor is "Based on a simple small production made by Gao Wan"
 
+----------------------
+
 HARDWARE
 
 In a nutshell, its a SDR receiver with 5 bandpass filtered antenna inputs and a USB Type-C output. (no automatic antenna switches, but bandpass filters are soldered). (See Schematic 1)
