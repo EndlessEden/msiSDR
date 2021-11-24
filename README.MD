@@ -4,17 +4,19 @@ SDR RSP1: SIMPLIFIED
 
 DESCRIPTION
 
-"SDR RSP1 Simple" often referred to by "BG7YZF", is a SDRPlay RSP1/RSP1a clone with a simplified circuit. The SDR RSP1 is a redesign of the MSI.SDR, a clone of the SDRplay RSP1A. All of these use the Msi001 and the Msi2500 (Sometimes called Msi3001 when used in this combo) chips which according to the vendor is "Based on a simple small production made by Gao Wan"
+(EXPECT THIS TO BE A MESS. Its direct from my research notes!)
+
+"SDR RSP1 Simple" often referred to by "BG7YZF", is a SDRPlay RSP1/RSP1a clone with a simplified circuit. The SDR RSP1 is a redesign of the MSI.SDR(this repo), a clone of the SDRplay RSP1A. All of these use the Msi001 and the Msi2500 (Sometimes called Msi3001 when used in this combo) chips which according to the vendor the SDR.RSP1 "Based on a simple small production made by Gao Wan"
 
 ----------------------
 
 HARDWARE
 
-In a nutshell, its a SDR receiver with 5 bandpass filtered antenna inputs and a USB Type-C output. (no automatic antenna switches, but bandpass filters are soldered). (See Schematic 1)
+In a nutshell, its a SDR receiver with 5 bandpass filtered antenna inputs and a USB Type-C interface. With no automatic antenna switching, and soldered in-line bandpass filters. See [Schematic 1](./Images/Diagrams/REF2/Schematic 1 - RSP1-SDR-10-1.png)
 
-The msi001 microcircuit contains 5 antenna amplifiers (each for its own range), a synthesizer and quadrature mixers outputting I/Q signals, software-controlled bandpass filters and amplifiers. (See: msi2500-BlockDiagram.jpg)
+The [msi001](./Datasheets/msi001 datasheet.pdf) microcircuit contains 5 antenna amplifiers (each for its own range), a synthesizer and quadrature mixers outputting I/Q signals, software-controlled bandpass filters and amplifiers. See: (msi001-BlockDiagram.jpg)[./Images/Diagrams/REF2/msi001-BlockDiagram.jpg]
 
-The msi2500 is a variable bit (8 to 14 bit) ADC and DSP with USB interface. (See: msi2500-BlockDiagram.jpg)
+The [msi2500](./Datasheets/msi2500 datasheet.pdf) is a variable bit (8 to 14 bit) ADC and DSP with USB interface. See: (msi2500-BlockDiagram.jpg)[./Images/Diagrams/REF2/msi2500-BlockDiagram.jpg]
 
 The result is:
 - a range from 10 kHz to 1 GHz (with a hole at 250-400 MHz)
@@ -25,9 +27,8 @@ MSPS from 8 to 9 MHz (10 bits),
 MSPS from 9 to 10 MHz (8 bits).
 - With a SNR of 60 dB.
 
-(See: msi001 datasheet.pdf & msi2500 datasheet.pdf for more info)
 
-the "SDR RSP1" comes in two different models. "Simple" and "Full", their antenna circuitry, oscillators and filtering are different. The "Full" is notably better due to being simpler, having a better oscillator and improved filtering. But all of these are design choices to cut costs. Outside the headaches with the Msi001's antenna switching, all other changes done to the "Full" version are entirely possible on the "Simple" version. Some of this can be done by the user if they are expierenced in SMP soldering.
+the "SDR RSP1" comes in two different models. ["Simple"](https://world.taobao.com/item/647736653771.htm?spm=a21wu.11804641.0.0.508e39d3yTvEJb) and ["Full"](https://www.taobao.com/list/item/645090109900.htm), their antenna circuitry, oscillators and filtering are different. The "Full" is notably better due to being simpler to operate, having a better oscillator and improved filtering. But all of these are design choices to cut costs. Outside the headaches with the Msi001's antenna switching, all other changes done to the "Full" version are entirely possible on the "Simple" version. Some of this can be done by the user if they are expierenced in SMP soldering.
 
 ----------------------
 
@@ -42,14 +43,15 @@ FROM THE VENDOR
 
 ORIGIN
 
-The "SDR RSP1 Simple" originates from Huanghuai University(MAKER SPACE OF HUANGHUAI UNIVERSITY[香港 创 客 空 闪]) [* See HHU] and seems to specifically come from the "School of Information Engineering" Program. The "DE BG7YZF" silk screen refers to Callsign BG7YZF (a unregistered callsign from China [DXCC Entity #318]) Originating (VideoD1) from QTH Xincai County, Henan Province. The Prefix 'DE' is a Morse code abbreviation amateur radio operators use meaning "from"(* see DE-W). 
-The callsign seems to be a Organisation (University Group), in which one of the members seems to be featured in the video referenced in the glossary(See VideoD1).
+![HHUM](./Images/HHU/MAKER SPACE OF HUANGHUAI UNIVERSITY.webp)
 
-The vendor(See: Vendor 1/Vendor 2/Vendor 3) "家晨科創"(Jiachen Technology) seems to be the vendor for the group Using "BG7YZF" as their logo. Supporting images in the product pages suggest they are the legitimate Vendors of the board(s), and most likely part of the university group its self, selling the designs made at the university to fund their group projects.
+The "SDR RSP1 Simple" design originates from Huanghuai University(MAKER SPACE OF HUANGHUAI UNIVERSITY[香港 创 客 空 闪])(* See HHU), The design originates from research done by a member know as "Smith" on their "Domestic science and technology forum"(* See Design). The SDR RSP1's are improvements to these designs by "BG7YZF". "BG7YZF" who is self-described as "a computer science and technology undergraduate student who is engaged in radio, model aircraft, drone, and photography." on their vendor page.
 
-All this information is further reinforced by other silk screens on the board(See Images: images/Device/RSP1-S, R4-A, R4-E, Vendor 2). "Maker Space of Huanghuai University", "Research, Science, Technology and prepare to serve the motherland", and 
+The "DE BG7YZF" silk screen refers to the designer, BG7YZF (a unregistered callsign from China [DXCC Entity #318]) is from QTH Xincai County, Henan Province.(VideoD1) The Prefix 'DE' is a Morse code abbreviation amateur radio operators use meaning "from"(* see DE-W). 
 
-redesign a clone of the MSI.SDR, a clone of the SDRplay RSP1A.
+The vendor(See: Vendor 1/Vendor 2/Vendor 3) "家晨科創"(Jiachen Technology) seems to be "BG7YZF"![BG7YZF](./Images/vendor.jpg) as their callsign is their literal logo. Supporting images in the product pages suggest they are the legitimate Vendors of the board(s).
+
+All this information is further reinforced by other silk screens on the board(See Images: images/Device/RSP1-S, R4-A, R4-E, Vendor 2). "Maker Space of Huanghuai University"(Self Explanitory), "Research, Science, Technology and prepare to serve the motherland"(HHU Qoute), and "家晨科创"(https://t.bilibili.com/550480890268977421?tab=2)[https://t.bilibili.com/550480890268977421?tab=2] Which this last one is litterally "BG7YZF".
 
 ----------------------
 
@@ -64,6 +66,13 @@ KNOWN CAVEATS
  - Undocumented Variants: Design has Undocumented variants (See: R4-E) as seen in The Ebay listing shared in Reference 4. It shows a model that has different silkscreening and what appears to be slightly different design choices. None of this is documented and the seller shows the device as "New". This may be clone/counterfiet, But i cant confirm or deny any of this. - No user images have surfaced of this device in use and very little information of SDR RSP1 Simple in use exists in general. While some testing exists of the SDR RSP1 Full, the simplified is overlooked due to its undocumented caveats surround the intenna inputs.
  
  - Case: The SDR RSP1 Simple doesnt have or come with vendor supplied case. This is a design choice as the "Simple" version is supposed to be a educational kit clearly. However, as case DOES exist from a french maker (https://www.thingiverse.com/thing:4988416)a
+ 
+ 
+----------------------
+
+FURTHER IMAGES:
+
+
  
 --------------------------------------------------------------------------------------
 
@@ -85,6 +94,8 @@ DE-W: https://en.wikipedia.org/wiki/Amateur_radio_call_signs
 
 HHU: http://cms2.huanghuai.edu.cn/s.php/english/item-view-id-21110.html
 HHU-2: http://cms2.huanghuai.edu.cn/s.php/english/item-view-id-39020.html
+
+Design: https://www.kechuang.org/t/83757 (archived: https://web.archive.org/web/20211124211743/https://www.kechuang.org/t/83757) *(Translated: https://world.taobao.com/item/647736653771.htm?spm=a21wu.11804641.0.0.508e39d3WbK6VD)
 
 Vendor 1: https://world.taobao.com/dianpu/573333074.htm?spm=a21wu.12321156.shop-area.1.4170796aFrsOco (archived: https://world.taobao.com/dianpu/573333074.htm?spm=a21wu.12321156.shop-area.1.4170796aFrsOco)
 Vendor 2: https://world.taobao.com/item/647736653771.htm?spm=a21wu.11804641.0.0.508e39d3yTvEJb (archived: https://web.archive.org/web/20211124164116/https://world.taobao.com/item/647736653771.htm?spm=a21wu.11804641.0.0.508e39d3yTvEJb)
