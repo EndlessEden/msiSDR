@@ -1,7 +1,5 @@
 # SDR RSP1: SIMPLIFIED
 
-----------------------
-
 ## DESCRIPTION
 
 (EXPECT THIS TO BE A MESS. Its direct from my research notes!)
