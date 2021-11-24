@@ -20,7 +20,7 @@ The [msi001](./Datasheets/msi001%20datasheet.pdf) microcircuit contains 5 antenn
 
 ![msi001-BlockDiagram.jpg](./Images/Diagrams/REF2/msi001-BlockDiagram.jpg)
 
-The [msi2500] (./Datasheets/msi2500%20datasheet.pdf) is a variable bit (8 to 14 bit) ADC and DSP with USB interface. 
+The [msi2500](./Datasheets/msi2500%20datasheet.pdf) is a variable bit (8 to 14 bit) ADC and DSP with USB interface. 
 
 ![msi2500-BlockDiagram](./Images/Diagrams/REF2/msi2500-BlockDiagram.jpg)
 
@@ -40,10 +40,13 @@ the "SDR RSP1" comes in two different models. ["Simple"](https://world.taobao.co
 
 ## FROM THE VENDOR
 
-[Vendor 2] "Question: What is the difference between this(SDR RSP1 Simple) and the full (SDR RSP1 full) version you sell?"
+[Vendor 2](https://world.taobao.com/item/647736653771.htm?spm=a21wu.11804641.0.0.508e39d3yTvEJb) "Question: What is the difference between this(SDR RSP1 Simple) and the full (SDR RSP1 full) version you sell?"
 "Answer: The full version uses 0.5PPM TCXO (Oscillators), the frequency is accurate, the simple version only uses ordinary active crystal oscillators with a small offset (not affecting reception), the simple version does not have a casing, and the antenna needs to be switched manually. The simple version is only for usability. Pursue performance. The maximum frequency of the simple version can only reach 1G, you can change it to 2G by yourself(oscillator), because the simple version has a great simplification in the circuit, and it is not as good as the full version in terms of acceptance sensitivity and selectivity, but the two are the same in function Yes ..."
 
-[Vendor 3] "This (SDR RSP1 Full) full version has the same software functions as the simple version ("SDR RSP1 Simple"), with higher sensitivity and more powerful performance."
+[Vendor 2](https://world.taobao.com/item/647736653771.htm?spm=a21wu.11804641.0.0.508e39d3yTvEJb) "Question: Did you design this yourself, or plagiarize someone else's circuit?"
+"Answer: This SDR is an open source project of the foreign SDRPLAY company. The circuit has been simplified by the smith of the domestic science and technology forum. It is also open sourced. Here is the original post [www.kechuang.org/t/83757](www.kechuang.org/t/83757). Please refer to it. I just like radio. , Try to re-engrave it by yourself and add filters in the three bands of 60MHz to 1000Mhz, redesign the PCB layout, modify the interface to Type-C, no copper in the radio frequency area, and add jumper vias to facilitate later toss."
+
+[Vendor 3](https://www.taobao.com/list/item/645090109900.htm) "This (SDR RSP1 Full) full version has the same software functions as the simple version ("SDR RSP1 Simple"), with higher sensitivity and more powerful performance."
 
 ----------------------
 
