@@ -60,7 +60,7 @@ The "DE BG7YZF" silk screen refers to the designer, BG7YZF (a unregistered calls
 
 The Prefix 'DE' is a Morse code abbreviation amateur radio operators use meaning "from" (See [DE-W](https://en.wikipedia.org/wiki/Amateur_radio_call_signs)). 
 
-The vendor "家晨科創" [Jiachen Technology](https://world.taobao.com/dianpu/573333074.htm?spm=a21wu.12321156.shop-area.1.4170796aFrsOco) seems to be ![BG7YZF](./Images/vendor.jpg) as their callsign is their literal logo. Supporting images in the product pages suggest they are the legitimate Vendors of the board(s).
+The vendor "家晨科創" [Jiachen Technology](https://world.taobao.com/dianpu/573333074.htm?spm=a21wu.12321156.shop-area.1.4170796aFrsOco) seems to be BG7YZF as their callsign is their literal [logo](./Images/vendor/vendor.jpg). Supporting images in the product pages suggest they are the legitimate Vendors of the board(s).
 
 All this information is further reinforced by other silk screens on the board (See images below):
 
