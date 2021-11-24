@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name msisdr-rescue)(type Legacy)(uri ${KIPRJMOD}/msisdr-rescue.lib)(options "")(descr ""))
+  (lib (name msi)(type Legacy)(uri ${KIPRJMOD}/lib/msi.lib)(options "")(descr ""))
+  (lib (name msi001)(type Legacy)(uri ${KIPRJMOD}/lib/msi001.lib)(options "")(descr ""))
+  (lib (name lp5900sdx-2)(type Legacy)(uri ${KIPRJMOD}/lib/lp5900sdx-2.lib)(options "")(descr ""))
+)
