@@ -54,7 +54,7 @@ the "SDR RSP1" comes in two different models. ["Simple"](https://world.taobao.co
 
 ![HHUM](./Images/HHU/MAKER%20SPACE%20OF%20HUANGHUAI%20UNIVERSITY.webp)
 
-The "SDR RSP1 Simple" design originates from Huanghuai University(MAKER SPACE OF HUANGHUAI UNIVERSITY[香港 创 客 空 闪])(* See HHU), The design originates from research done by a member known as "Smith" on their "Domestic science and technology forum" (See [Design](https://www.kechuang.org/t/83757)). The SDR RSP1's are improvements to these designs by "BG7YZF". A self-described as "a computer science and technology undergraduate student who is engaged in radio, model aircraft, drone, and photography." on their vendor page.
+The "SDR RSP1 Simple" design originates from Huanghuai University(MAKER SPACE OF HUANGHUAI UNIVERSITY[香港 创 客 空 闪])(* See HHU), research done by a member known as "Smith" on their "Domestic science and technology forum" (See [Design](https://www.kechuang.org/t/83757)). The SDR RSP1's are improvements to these designs by "BG7YZF". A self-described as "a computer science and technology undergraduate student who is engaged in radio, model aircraft, drone, and photography." on their vendor page.
 
 ![HHUMW](./Images/vendor/O1CN01rGRH3j1FT5b7LkS9z_!!2200556750487.jpg_q50s50.jpg_.webp)
 
